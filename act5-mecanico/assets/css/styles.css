@@ -1,0 +1,104 @@
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#logonav, #logo{
+    color: rgb(204, 49, 49);
+}
+
+/* Login */
+.login-content {
+    justify-content: center;
+	align-items: center;
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.fondo-icar {
+    background: url(https://i.pinimg.com/736x/a5/6e/96/a56e961deccf283bb6773aff0d834c54.jpg) no-repeat;
+	background-size: cover;
+	background-color: #df977a;
+}
+
+.fondo-color {
+    background-color: #411515;
+}
+
+h3, h5{
+    text-align: center;
+}
+
+.form-format {
+    margin-top: 5%;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-format2 {
+    margin-top: 5%;
+    margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inicio-format {
+    max-width: 95%;
+}
+
+.table-format {
+    margin-top: 5%;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 95%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.table-responsive {
+    max-height: 600px;
+}
+
+#tabla a:link, #tabla a:visited{
+    color: #7a90df;
+}
+
+
+#tabla a:hover {
+    color: #4a5ea7;
+}
+
+.desc-format {
+    margin-top: 5%;
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Para centrar la imagen en la descripcion */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
