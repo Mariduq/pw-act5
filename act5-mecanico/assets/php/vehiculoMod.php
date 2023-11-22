@@ -12,6 +12,11 @@
         $cantidad = $_POST['cantidad'];
         $costo = $_POST['costo'];
 
+        // Creamos carpeta uploads si esta no existe
+        if(!file_exists("uploads")) {
+            mkdir("uploads");
+        }
+
         // Chequeamos si se ha seleccionado un nuevo archivo
         if(isset($_FILES['image']) && $_FILES['image']['error'] == 0) {
             // Procesa la imagen para subirla al servidor
