@@ -17,6 +17,11 @@
             // Almacenar el id en una variable
             $indice = $fila['lastid'] + 1;
 
+            // Creamos carpeta uploads si esta no existe
+            if(!file_exists("uploads")) {
+                mkdir("uploads");
+            }
+
             // Procesa la imagen para subirla al servidor
             $uploadOk = 1;
             $targetDir = "uploads/";
